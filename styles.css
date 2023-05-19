@@ -1,0 +1,146 @@
+:root{
+    font-size: 16px;
+    line-height: 1.5;
+}
+p{ font-family:Roboto;
+    font-size: 24px;
+    color: hsla(0, 0%, 100%, 0.8);
+}
+h1{ font-family:Cinzel;
+    font-size: 58px;
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: black 12px 18px 20px;A
+}
+/*basic style*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+.container1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/header-wall.png);
+    background-position: center;
+    background-size: cover;
+}
+
+li, a {
+    font-family: Roboto;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hoover{
+    color: rgb(75, 66, 237);
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    margin-left: 40px;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 50%;
+}
+
+.h-painting {
+    width: 100%;
+    
+}
+
+.about-section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background: url(img/spomenik.png) no-repeat left;
+    background-size: 55%;
+    background-color: #FFFD2F;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 75px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.oblasti{
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.art-calling{
+    width: 100%;
+    height: 100vh;
+    background-image:url(img/art-calling.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.button1{
+    font-size: 16px;
+    font-family: Roboto;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    background-color: black;
+    margin-right: 10px;   
+    margin-top: 60px;
+    margin-left: 250px;
